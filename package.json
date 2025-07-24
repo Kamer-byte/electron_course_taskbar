@@ -4,6 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "main": "dist-electron/main.js",
+  "author": {
+    "name": "Kamer Byte",
+    "email": "example@gmail.com"
+  },
   "scripts": {
     "dist:clear": "rm -rf dist dist-react dist-electron ",
     "dev:react": "vite",
