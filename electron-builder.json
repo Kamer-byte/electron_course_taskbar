@@ -1,0 +1,16 @@
+{
+  "appId": "com.example.electron-course-taskbar",
+  "files": ["dist-react", "dist-electron"],
+  "executableName": "electron_course_taskbar",
+  "icon": "./icon.png",
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": ["AppImage", "rpm"],
+    "category": "Utility"
+  },
+  "win": {
+    "target": ["portable", "msi"]
+  }
+}
